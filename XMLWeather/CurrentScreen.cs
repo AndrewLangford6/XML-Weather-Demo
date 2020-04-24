@@ -20,10 +20,18 @@ namespace XMLWeather
         public void DisplayCurrent()
         {
             // the current information is in index 0, thus why all information is retreived from there
+
+            //city
             cityOutput.Text = Form1.days[0].location;
+
+            //temp
             tempLabel.Text = Form1.days[0].currentTemp;
-            minOutput.Text = Form1.days[0].tempLow;
-            maxOutput.Text = Form1.days[0].tempHigh;
+
+            //min and max
+            minOutput.Text = Math.Round 
+                (Convert.ToDouble(Form1.days[0].tempLow), 0) + "° ";
+            maxOutput.Text = Math.Round 
+                (Convert.ToDouble(Form1.days[0].tempHigh), 0) + "° ";
         }
 
         /// <summary>
@@ -39,6 +47,11 @@ namespace XMLWeather
 
             ForecastScreen fs = new ForecastScreen();
             f.Controls.Add(fs);
+        }
+
+        private void CurrentScreen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -46,5 +46,10 @@ namespace XMLWeather
             CurrentScreen cs = new CurrentScreen();
             f.Controls.Add(cs);
         }
+
+        private void ForecastScreen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
