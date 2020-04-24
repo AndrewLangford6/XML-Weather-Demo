@@ -24,9 +24,17 @@ namespace XMLWeather
             //city
             cityOutput.Text = Form1.days[0].location;
 
+            //conditions
+            conditionLabel.Text = Form1.days[0].condition;
+
             //temp
             tempLabel.Text = Math.Round
                 (Convert.ToDouble(Form1.days[0].currentTemp), 0) + "° ";
+
+            //local time converted to time in location
+            dateLabel.Text = DateTime.Now.AddSeconds(-14400).ToString("dddd") + "  |  "
+                + DateTime.Now.AddSeconds(-14400).ToString("MMM dd") + "  |  " + DateTime.Now.ToString("yyyy");
+
 
             //min and max
             minOutput.Text = Math.Round 
