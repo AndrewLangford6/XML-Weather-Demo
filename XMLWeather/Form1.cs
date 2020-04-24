@@ -76,9 +76,7 @@ namespace XMLWeather
             reader.ReadToFollowing("city");
             days[0].location = reader.GetAttribute("name");
 
-            // find the temperature element and add the value attribute, (current temp), to days[0], (today)
-            reader.ReadToFollowing("temperature");
-            days[0].currentTemp = reader.GetAttribute("value");
+
 
             //sun up down times
             reader.ReadToFollowing("sun");
@@ -103,10 +101,7 @@ namespace XMLWeather
             reader.ReadToFollowing("weather");
             days[0].condition = reader.GetAttribute("value");
 
-            //icon
-            days[0].icon = reader.GetAttribute("icon");
-
-            //update time
+            //determine last update time
             reader.ReadToFollowing("lastupdate");
             days[0].updateTime = reader.GetAttribute("value");
         }

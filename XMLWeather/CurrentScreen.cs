@@ -25,13 +25,27 @@ namespace XMLWeather
             cityOutput.Text = Form1.days[0].location;
 
             //temp
-            tempLabel.Text = Form1.days[0].currentTemp;
+            tempLabel.Text = Math.Round
+                (Convert.ToDouble(Form1.days[0].currentTemp), 0) + "° ";
 
             //min and max
             minOutput.Text = Math.Round 
                 (Convert.ToDouble(Form1.days[0].tempLow), 0) + "° ";
             maxOutput.Text = Math.Round 
                 (Convert.ToDouble(Form1.days[0].tempHigh), 0) + "° ";
+
+            //sun
+            sunriseLabel.Text = Convert.ToDateTime(Form1.days[0].sunrise).AddSeconds(-14400).ToString("h:mm tt");
+            sunsetLabel.Text = Convert.ToDateTime(Form1.days[0].sunset).AddSeconds(-14400).ToString("h:mm tt");
+
+            //wind vector
+
+            windLabel.Text = Math.Round((3600/1000) * Convert.ToDouble(Form1.days[0].windSpeed), 0) + " km/h";
+            windLabel.Text += " " + Form1.days[0].windDirection;
+
+            //update time
+            upTimeLabel.Text = "Last Updated at " + Convert.ToDateTime(Form1.days[0].updateTime).AddSeconds(-14400).ToString("h:mm tt");
+
         }
 
         /// <summary>

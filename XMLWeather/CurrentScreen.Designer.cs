@@ -46,6 +46,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.windLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.upTimeLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cityOutput
@@ -63,7 +64,7 @@
             this.maxOutput.BackColor = System.Drawing.Color.White;
             this.maxOutput.Location = new System.Drawing.Point(21, 216);
             this.maxOutput.Name = "maxOutput";
-            this.maxOutput.Size = new System.Drawing.Size(68, 21);
+            this.maxOutput.Size = new System.Drawing.Size(103, 21);
             this.maxOutput.TabIndex = 32;
             // 
             // maxLabel
@@ -79,16 +80,16 @@
             // minOutput
             // 
             this.minOutput.BackColor = System.Drawing.Color.White;
-            this.minOutput.Location = new System.Drawing.Point(117, 216);
+            this.minOutput.Location = new System.Drawing.Point(130, 216);
             this.minOutput.Name = "minOutput";
-            this.minOutput.Size = new System.Drawing.Size(65, 21);
+            this.minOutput.Size = new System.Drawing.Size(100, 21);
             this.minOutput.TabIndex = 30;
             // 
             // minLabel
             // 
             this.minLabel.AutoSize = true;
             this.minLabel.ForeColor = System.Drawing.Color.White;
-            this.minLabel.Location = new System.Drawing.Point(117, 194);
+            this.minLabel.Location = new System.Drawing.Point(129, 194);
             this.minLabel.Name = "minLabel";
             this.minLabel.Size = new System.Drawing.Size(23, 13);
             this.minLabel.TabIndex = 29;
@@ -156,7 +157,7 @@
             this.conditionLabel.Name = "conditionLabel";
             this.conditionLabel.Size = new System.Drawing.Size(209, 23);
             this.conditionLabel.TabIndex = 43;
-            this.conditionLabel.Text = "City";
+            this.conditionLabel.Text = "Condition";
             // 
             // dateLabel
             // 
@@ -173,7 +174,7 @@
             this.sunriseLabel.BackColor = System.Drawing.Color.White;
             this.sunriseLabel.Location = new System.Drawing.Point(21, 272);
             this.sunriseLabel.Name = "sunriseLabel";
-            this.sunriseLabel.Size = new System.Drawing.Size(68, 21);
+            this.sunriseLabel.Size = new System.Drawing.Size(103, 21);
             this.sunriseLabel.TabIndex = 48;
             // 
             // label2
@@ -189,16 +190,16 @@
             // sunsetLabel
             // 
             this.sunsetLabel.BackColor = System.Drawing.Color.White;
-            this.sunsetLabel.Location = new System.Drawing.Point(117, 272);
+            this.sunsetLabel.Location = new System.Drawing.Point(130, 272);
             this.sunsetLabel.Name = "sunsetLabel";
-            this.sunsetLabel.Size = new System.Drawing.Size(65, 21);
+            this.sunsetLabel.Size = new System.Drawing.Size(100, 21);
             this.sunsetLabel.TabIndex = 46;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(117, 250);
+            this.label4.Location = new System.Drawing.Point(129, 250);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(38, 13);
             this.label4.TabIndex = 45;
@@ -222,11 +223,22 @@
             this.label7.TabIndex = 49;
             this.label7.Text = "wind";
             // 
+            // upTimeLabel
+            // 
+            this.upTimeLabel.BackColor = System.Drawing.Color.Transparent;
+            this.upTimeLabel.ForeColor = System.Drawing.Color.White;
+            this.upTimeLabel.Location = new System.Drawing.Point(21, 355);
+            this.upTimeLabel.Name = "upTimeLabel";
+            this.upTimeLabel.Size = new System.Drawing.Size(209, 23);
+            this.upTimeLabel.TabIndex = 51;
+            this.upTimeLabel.Text = "Last Updated";
+            // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.Controls.Add(this.upTimeLabel);
             this.Controls.Add(this.windLabel);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.sunriseLabel);
@@ -272,5 +284,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label windLabel;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label upTimeLabel;
     }
 }
