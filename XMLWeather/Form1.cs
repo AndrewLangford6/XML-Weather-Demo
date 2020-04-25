@@ -1,4 +1,11 @@
-﻿using System;
+﻿
+/// Weather app that updates in real time! It uses data from OpenWeatherMap to get you the lateset weather information
+/// as fast as possible! Wallpapers will be availible in future patches!
+/// Author: Andrew Langford
+/// Date: April 27 2020
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -106,14 +113,14 @@ namespace XMLWeather
             reader.ReadToFollowing("weather");
             days[0].condition = reader.GetAttribute("value");
 
-            //determine last update time
+            //get update time
             reader.ReadToFollowing("lastupdate");
             days[0].updateTime = reader.GetAttribute("value");
 
 
 
-            //get code
-            //find appropriate icon
+            //get code that associates with weather
+
             days[0].code = reader.GetAttribute("code");
         }
 

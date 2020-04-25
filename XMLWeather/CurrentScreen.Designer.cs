@@ -54,11 +54,11 @@
             // cityOutput
             // 
             this.cityOutput.BackColor = System.Drawing.Color.Transparent;
-            this.cityOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cityOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityOutput.ForeColor = System.Drawing.Color.MediumBlue;
             this.cityOutput.Location = new System.Drawing.Point(22, 68);
             this.cityOutput.Name = "cityOutput";
-            this.cityOutput.Size = new System.Drawing.Size(209, 23);
+            this.cityOutput.Size = new System.Drawing.Size(109, 23);
             this.cityOutput.TabIndex = 22;
             this.cityOutput.Text = "City";
             // 
@@ -120,11 +120,11 @@
             // 
             this.tempLabel.AutoSize = true;
             this.tempLabel.BackColor = System.Drawing.Color.Transparent;
-            this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tempLabel.ForeColor = System.Drawing.Color.MediumBlue;
-            this.tempLabel.Location = new System.Drawing.Point(39, 119);
+            this.tempLabel.Location = new System.Drawing.Point(127, 77);
             this.tempLabel.Name = "tempLabel";
-            this.tempLabel.Size = new System.Drawing.Size(335, 37);
+            this.tempLabel.Size = new System.Drawing.Size(493, 55);
             this.tempLabel.TabIndex = 26;
             this.tempLabel.Text = "Current Temperature";
             // 
@@ -156,9 +156,9 @@
             // conditionLabel
             // 
             this.conditionLabel.BackColor = System.Drawing.Color.Transparent;
-            this.conditionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionLabel.ForeColor = System.Drawing.Color.MediumBlue;
-            this.conditionLabel.Location = new System.Drawing.Point(22, 91);
+            this.conditionLabel.Location = new System.Drawing.Point(21, 126);
             this.conditionLabel.Name = "conditionLabel";
             this.conditionLabel.Size = new System.Drawing.Size(209, 23);
             this.conditionLabel.TabIndex = 43;
@@ -270,9 +270,9 @@
             this.pBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.pBox.BackColor = System.Drawing.Color.Transparent;
             this.pBox.InitialImage = global::XMLWeather.Properties.Resources.Rain3;
-            this.pBox.Location = new System.Drawing.Point(133, 61);
+            this.pBox.Location = new System.Drawing.Point(209, 360);
             this.pBox.Name = "pBox";
-            this.pBox.Size = new System.Drawing.Size(90, 90);
+            this.pBox.Size = new System.Drawing.Size(41, 40);
             this.pBox.TabIndex = 93;
             this.pBox.TabStop = false;
             // 
@@ -305,7 +305,6 @@
             this.Controls.Add(this.tempLabel);
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(250, 400);
-            this.Load += new System.EventHandler(this.CurrentScreen_Load);
             this.BackgroundImageChanged += new System.EventHandler(this.forecastLabel_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pBox)).EndInit();
             this.ResumeLayout(false);

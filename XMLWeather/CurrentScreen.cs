@@ -60,6 +60,8 @@ namespace XMLWeather
         }
         public void todayWeather()
         {
+
+            //display the weather icon and the wallpaper image
             if (Form1.days[0].code == "11d")
             {
                 pBox.Image = XMLWeather.Properties.Resources.storm;
@@ -127,11 +129,6 @@ namespace XMLWeather
             ForecastScreen fs = new ForecastScreen();
             f.Controls.Add(fs);
             fs.Focus();
-        }
-
-        private void CurrentScreen_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

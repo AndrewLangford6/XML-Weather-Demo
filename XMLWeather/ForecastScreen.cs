@@ -81,6 +81,8 @@ namespace XMLWeather
 
         private void ForecastScreen_Load(object sender, EventArgs e)
             {
+            //display a wallpaper and the icon of the waether for each day
+
             //day 1
             if (Form1.days[0].code == "11d")
             {
@@ -406,7 +408,7 @@ namespace XMLWeather
             }
 
 
-
+            //crop the icons to fit
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
