@@ -99,6 +99,75 @@
   <ItemGroup>
     <None Include="Resources\Rain3.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud_wind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meteor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\storm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\storm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wind.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudM2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudS2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wind2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -52,6 +52,10 @@ namespace XMLWeather
                 reader.ReadToFollowing("time");
                 d.date = reader.GetAttribute("day");
 
+                //find weather code
+                reader.ReadToFollowing("symbol");
+                d.code = reader.GetAttribute("var");
+
                 //find the temperature element, and get the min and max attributes
                 reader.ReadToFollowing("temperature");
                 d.tempLow = reader.GetAttribute("min");
@@ -104,6 +108,12 @@ namespace XMLWeather
             //determine last update time
             reader.ReadToFollowing("lastupdate");
             days[0].updateTime = reader.GetAttribute("value");
+
+
+
+            //get code
+            //find appropriate icon
+            days[0].code = reader.GetAttribute("code");
         }
 
         private void Form1_Load(object sender, EventArgs e)
