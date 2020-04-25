@@ -62,51 +62,55 @@ namespace XMLWeather
         {
             if (Form1.days[0].code == "11d")
             {
-                pictureBox1.Image = XMLWeather.Properties.Resources.storm;
+                pBox.Image = XMLWeather.Properties.Resources.storm;
                 this.BackgroundImage = XMLWeather.Properties.Resources.storm1;
             }
             else if (Form1.days[0].code == "09d")
             {
-                pictureBox1.Image = XMLWeather.Properties.Resources.rain;
+                pBox.Image = XMLWeather.Properties.Resources.rain;
                 this.BackgroundImage = XMLWeather.Properties.Resources.rain2;
             }
             else if (Form1.days[0].code == "10d")
             {
-                pictureBox1.Image = XMLWeather.Properties.Resources.rain;
+                pBox.Image = XMLWeather.Properties.Resources.rain;
                 this.BackgroundImage = XMLWeather.Properties.Resources.rain2;
             }
             else if (Form1.days[0].code == "13d")
             {
-                pictureBox1.Image = XMLWeather.Properties.Resources.snow;
+                pBox.Image = XMLWeather.Properties.Resources.snow;
                 this.BackgroundImage = XMLWeather.Properties.Resources.snow2;
             }
             else if (Form1.days[0].code == "50d")
             {
-                pictureBox1.Image = XMLWeather.Properties.Resources.cloud_wind;
+                pBox.Image = XMLWeather.Properties.Resources.cloud_wind;
                 this.BackgroundImage = XMLWeather.Properties.Resources.wind;
             }
             else if (Form1.days[0].code == "01d")
             {
-                pictureBox1.Image = XMLWeather.Properties.Resources.sun;
+                pBox.Image = XMLWeather.Properties.Resources.sun;
                 this.BackgroundImage = XMLWeather.Properties.Resources.sun1;
             }
             else if (Form1.days[0].code == "02d" || Form1.days[0].code == "03d" || Form1.days[0].code == "04d")
             {
-                pictureBox1.Image = XMLWeather.Properties.Resources.cloudS;
+                pBox.Image = XMLWeather.Properties.Resources.cloudS;
                 this.BackgroundImage = XMLWeather.Properties.Resources.cloudS2;
             }
             else if (Form1.days[0].code == "01n")
             {
-                pictureBox1.Image = XMLWeather.Properties.Resources.moon;
+                pBox.Image = XMLWeather.Properties.Resources.moon;
                 this.BackgroundImage = XMLWeather.Properties.Resources.Moon1;
             }
             else if (Form1.days[0].code == "02n" || Form1.days[0].code == "03n" || Form1.days[0].code == "04n")
             {
-                pictureBox1.Image = XMLWeather.Properties.Resources.cloudM;
+                pBox.Image = XMLWeather.Properties.Resources.cloudM;
                 this.BackgroundImage = XMLWeather.Properties.Resources.cloudM2;
             }
 
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pBox.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            pBox.Visible = true;
+            this.Focus();
+            this.Refresh();
         }
 
         /// <summary>
@@ -122,6 +126,7 @@ namespace XMLWeather
 
             ForecastScreen fs = new ForecastScreen();
             f.Controls.Add(fs);
+            fs.Focus();
         }
 
         private void CurrentScreen_Load(object sender, EventArgs e)

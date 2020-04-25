@@ -15,7 +15,6 @@ namespace XMLWeather
         {
             InitializeComponent();
             displayForecast();
-            drawIcons();
         }
 
 
@@ -73,8 +72,15 @@ namespace XMLWeather
 
 
         }
-        public void drawIcons()
-        {
+            /// <summary>
+            /// When the Today label is clicked, this user control is removed from the form
+            /// and the CurrentScreen user control is added to the form.
+            /// </summary>
+            /// <param name="sender"></param>
+            /// <param name="e"></param>
+
+        private void ForecastScreen_Load(object sender, EventArgs e)
+            {
             //day 1
             if (Form1.days[0].code == "11d")
             {
@@ -186,7 +192,7 @@ namespace XMLWeather
 
             }
             else if (Form1.days[2].code == "13d")
-            { 
+            {
                 pictureBox3.Image = XMLWeather.Properties.Resources.snow;
 
             }
@@ -409,19 +415,7 @@ namespace XMLWeather
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            this.Focus();
         }
-            /// <summary>
-            /// When the Today label is clicked, this user control is removed from the form
-            /// and the CurrentScreen user control is added to the form.
-            /// </summary>
-            /// <param name="sender"></param>
-            /// <param name="e"></param>
-
-        private void ForecastScreen_Load(object sender, EventArgs e)
-            {
-
-            }
 
         private void todayLabel_Click_1(object sender, EventArgs e)
         {
@@ -430,6 +424,11 @@ namespace XMLWeather
 
             CurrentScreen cs = new CurrentScreen();
             f.Controls.Add(cs);
+        }
+
+        private void drawBackground(object sender, EventArgs e)
+        {
+
         }
     }
 }

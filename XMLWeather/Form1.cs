@@ -27,6 +27,7 @@ namespace XMLWeather
             // open weather screen for todays weather
             CurrentScreen cs = new CurrentScreen();
             this.Controls.Add(cs);
+           
         }
 
         /// <summary>

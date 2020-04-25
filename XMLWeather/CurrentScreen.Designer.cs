@@ -47,16 +47,16 @@
             this.label7 = new System.Windows.Forms.Label();
             this.upTimeLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox)).BeginInit();
             this.SuspendLayout();
             // 
             // cityOutput
             // 
             this.cityOutput.BackColor = System.Drawing.Color.Transparent;
             this.cityOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cityOutput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.cityOutput.Location = new System.Drawing.Point(21, 85);
+            this.cityOutput.ForeColor = System.Drawing.Color.MediumBlue;
+            this.cityOutput.Location = new System.Drawing.Point(22, 68);
             this.cityOutput.Name = "cityOutput";
             this.cityOutput.Size = new System.Drawing.Size(209, 23);
             this.cityOutput.TabIndex = 22;
@@ -66,7 +66,7 @@
             // 
             this.maxOutput.BackColor = System.Drawing.Color.Transparent;
             this.maxOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxOutput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.maxOutput.ForeColor = System.Drawing.Color.MediumBlue;
             this.maxOutput.Location = new System.Drawing.Point(21, 216);
             this.maxOutput.Name = "maxOutput";
             this.maxOutput.Size = new System.Drawing.Size(103, 21);
@@ -75,8 +75,9 @@
             // maxLabel
             // 
             this.maxLabel.AutoSize = true;
+            this.maxLabel.BackColor = System.Drawing.Color.Transparent;
             this.maxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.maxLabel.ForeColor = System.Drawing.Color.MediumBlue;
             this.maxLabel.Location = new System.Drawing.Point(23, 194);
             this.maxLabel.Name = "maxLabel";
             this.maxLabel.Size = new System.Drawing.Size(108, 13);
@@ -87,7 +88,7 @@
             // 
             this.minOutput.BackColor = System.Drawing.Color.Transparent;
             this.minOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minOutput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.minOutput.ForeColor = System.Drawing.Color.MediumBlue;
             this.minOutput.Location = new System.Drawing.Point(130, 216);
             this.minOutput.Name = "minOutput";
             this.minOutput.Size = new System.Drawing.Size(100, 21);
@@ -96,8 +97,9 @@
             // minLabel
             // 
             this.minLabel.AutoSize = true;
+            this.minLabel.BackColor = System.Drawing.Color.Transparent;
             this.minLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.minLabel.ForeColor = System.Drawing.Color.MediumBlue;
             this.minLabel.Location = new System.Drawing.Point(129, 194);
             this.minLabel.Name = "minLabel";
             this.minLabel.Size = new System.Drawing.Size(105, 13);
@@ -117,11 +119,12 @@
             // tempLabel
             // 
             this.tempLabel.AutoSize = true;
-            this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tempLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.tempLabel.Location = new System.Drawing.Point(21, 136);
+            this.tempLabel.BackColor = System.Drawing.Color.Transparent;
+            this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tempLabel.ForeColor = System.Drawing.Color.MediumBlue;
+            this.tempLabel.Location = new System.Drawing.Point(39, 119);
             this.tempLabel.Name = "tempLabel";
-            this.tempLabel.Size = new System.Drawing.Size(123, 13);
+            this.tempLabel.Size = new System.Drawing.Size(335, 37);
             this.tempLabel.TabIndex = 26;
             this.tempLabel.Text = "Current Temperature";
             // 
@@ -129,7 +132,7 @@
             // 
             this.todayLabel.BackColor = System.Drawing.Color.Transparent;
             this.todayLabel.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.todayLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.todayLabel.ForeColor = System.Drawing.Color.MediumBlue;
             this.todayLabel.Location = new System.Drawing.Point(21, 15);
             this.todayLabel.Name = "todayLabel";
             this.todayLabel.Size = new System.Drawing.Size(82, 28);
@@ -141,7 +144,7 @@
             // 
             this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
             this.forecastLabel.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.forecastLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.forecastLabel.ForeColor = System.Drawing.Color.MediumBlue;
             this.forecastLabel.Location = new System.Drawing.Point(128, 13);
             this.forecastLabel.Name = "forecastLabel";
             this.forecastLabel.Size = new System.Drawing.Size(119, 28);
@@ -154,8 +157,8 @@
             // 
             this.conditionLabel.BackColor = System.Drawing.Color.Transparent;
             this.conditionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.conditionLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.conditionLabel.Location = new System.Drawing.Point(21, 108);
+            this.conditionLabel.ForeColor = System.Drawing.Color.MediumBlue;
+            this.conditionLabel.Location = new System.Drawing.Point(22, 91);
             this.conditionLabel.Name = "conditionLabel";
             this.conditionLabel.Size = new System.Drawing.Size(209, 23);
             this.conditionLabel.TabIndex = 43;
@@ -165,7 +168,7 @@
             // 
             this.dateLabel.BackColor = System.Drawing.Color.Transparent;
             this.dateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.dateLabel.ForeColor = System.Drawing.Color.MediumBlue;
             this.dateLabel.Location = new System.Drawing.Point(23, 162);
             this.dateLabel.Name = "dateLabel";
             this.dateLabel.Size = new System.Drawing.Size(209, 23);
@@ -177,7 +180,7 @@
             // 
             this.sunriseLabel.BackColor = System.Drawing.Color.Transparent;
             this.sunriseLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sunriseLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.sunriseLabel.ForeColor = System.Drawing.Color.MediumBlue;
             this.sunriseLabel.Location = new System.Drawing.Point(21, 272);
             this.sunriseLabel.Name = "sunriseLabel";
             this.sunriseLabel.Size = new System.Drawing.Size(103, 21);
@@ -186,8 +189,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label2.ForeColor = System.Drawing.Color.MediumBlue;
             this.label2.Location = new System.Drawing.Point(23, 250);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 13);
@@ -198,7 +202,7 @@
             // 
             this.sunsetLabel.BackColor = System.Drawing.Color.Transparent;
             this.sunsetLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sunsetLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.sunsetLabel.ForeColor = System.Drawing.Color.MediumBlue;
             this.sunsetLabel.Location = new System.Drawing.Point(130, 272);
             this.sunsetLabel.Name = "sunsetLabel";
             this.sunsetLabel.Size = new System.Drawing.Size(100, 21);
@@ -207,8 +211,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label4.ForeColor = System.Drawing.Color.MediumBlue;
             this.label4.Location = new System.Drawing.Point(129, 250);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(92, 13);
@@ -219,7 +224,7 @@
             // 
             this.windLabel.BackColor = System.Drawing.Color.Transparent;
             this.windLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.windLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.windLabel.ForeColor = System.Drawing.Color.MediumBlue;
             this.windLabel.Location = new System.Drawing.Point(21, 324);
             this.windLabel.Name = "windLabel";
             this.windLabel.Size = new System.Drawing.Size(161, 21);
@@ -228,8 +233,9 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label7.ForeColor = System.Drawing.Color.MediumBlue;
             this.label7.Location = new System.Drawing.Point(23, 302);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(156, 13);
@@ -240,7 +246,7 @@
             // 
             this.upTimeLabel.BackColor = System.Drawing.Color.Transparent;
             this.upTimeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.upTimeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.upTimeLabel.ForeColor = System.Drawing.Color.MediumBlue;
             this.upTimeLabel.Location = new System.Drawing.Point(24, 377);
             this.upTimeLabel.Name = "upTimeLabel";
             this.upTimeLabel.Size = new System.Drawing.Size(209, 23);
@@ -249,8 +255,9 @@
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.ForeColor = System.Drawing.Color.MediumBlue;
             this.label1.Location = new System.Drawing.Point(0, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 28);
@@ -258,27 +265,25 @@
             this.label1.Text = "____________________________";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // pictureBox1
+            // pBox
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::XMLWeather.Properties.Resources.cloud;
-            this.pictureBox1.Image = global::XMLWeather.Properties.Resources.cloud;
-            this.pictureBox1.InitialImage = global::XMLWeather.Properties.Resources.Rain3;
-            this.pictureBox1.Location = new System.Drawing.Point(133, 61);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(90, 90);
-            this.pictureBox1.TabIndex = 93;
-            this.pictureBox1.TabStop = false;
+            this.pBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.pBox.BackColor = System.Drawing.Color.Transparent;
+            this.pBox.InitialImage = global::XMLWeather.Properties.Resources.Rain3;
+            this.pBox.Location = new System.Drawing.Point(133, 61);
+            this.pBox.Name = "pBox";
+            this.pBox.Size = new System.Drawing.Size(90, 90);
+            this.pBox.TabIndex = 93;
+            this.pBox.TabStop = false;
             // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Transparent;
-            this.BackgroundImage = global::XMLWeather.Properties.Resources.sun1;
+            this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::XMLWeather.Properties.Resources.b;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.upTimeLabel);
             this.Controls.Add(this.windLabel);
@@ -301,7 +306,8 @@
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(250, 400);
             this.Load += new System.EventHandler(this.CurrentScreen_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.BackgroundImageChanged += new System.EventHandler(this.forecastLabel_Click);
+            ((System.ComponentModel.ISupportInitialize)(this.pBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -327,6 +333,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label upTimeLabel;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pBox;
     }
 }

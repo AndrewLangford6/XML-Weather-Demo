@@ -76,7 +76,7 @@ namespace XMLWeather
             // 
             this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
             this.forecastLabel.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.forecastLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.forecastLabel.ForeColor = System.Drawing.Color.MediumBlue;
             this.forecastLabel.Location = new System.Drawing.Point(129, 14);
             this.forecastLabel.Name = "forecastLabel";
             this.forecastLabel.Size = new System.Drawing.Size(115, 28);
@@ -88,7 +88,7 @@ namespace XMLWeather
             // 
             this.todayLabel.BackColor = System.Drawing.Color.Transparent;
             this.todayLabel.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.todayLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.todayLabel.ForeColor = System.Drawing.Color.MediumBlue;
             this.todayLabel.Location = new System.Drawing.Point(22, 14);
             this.todayLabel.Name = "todayLabel";
             this.todayLabel.Size = new System.Drawing.Size(82, 28);
@@ -100,8 +100,9 @@ namespace XMLWeather
             // minLabel1
             // 
             this.minLabel1.AutoSize = true;
+            this.minLabel1.BackColor = System.Drawing.Color.Transparent;
             this.minLabel1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.minLabel1.ForeColor = System.Drawing.Color.MediumBlue;
             this.minLabel1.Location = new System.Drawing.Point(210, 69);
             this.minLabel1.Name = "minLabel1";
             this.minLabel1.Size = new System.Drawing.Size(43, 23);
@@ -111,8 +112,9 @@ namespace XMLWeather
             // maxLabel1
             // 
             this.maxLabel1.AutoSize = true;
+            this.maxLabel1.BackColor = System.Drawing.Color.Transparent;
             this.maxLabel1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.maxLabel1.ForeColor = System.Drawing.Color.MediumBlue;
             this.maxLabel1.Location = new System.Drawing.Point(162, 69);
             this.maxLabel1.Name = "maxLabel1";
             this.maxLabel1.Size = new System.Drawing.Size(42, 23);
@@ -133,19 +135,21 @@ namespace XMLWeather
             // day1
             // 
             this.day1.AutoSize = true;
-            this.day1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.day1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.day1.BackColor = System.Drawing.Color.Transparent;
+            this.day1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.day1.ForeColor = System.Drawing.Color.MediumBlue;
             this.day1.Location = new System.Drawing.Point(13, 69);
             this.day1.Name = "day1";
-            this.day1.Size = new System.Drawing.Size(48, 23);
+            this.day1.Size = new System.Drawing.Size(48, 20);
             this.day1.TabIndex = 64;
             this.day1.Text = "Date";
             // 
             // minLabel2
             // 
             this.minLabel2.AutoSize = true;
+            this.minLabel2.BackColor = System.Drawing.Color.Transparent;
             this.minLabel2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.minLabel2.ForeColor = System.Drawing.Color.MediumBlue;
             this.minLabel2.Location = new System.Drawing.Point(210, 109);
             this.minLabel2.Name = "minLabel2";
             this.minLabel2.Size = new System.Drawing.Size(43, 23);
@@ -155,8 +159,9 @@ namespace XMLWeather
             // minLabel3
             // 
             this.minLabel3.AutoSize = true;
+            this.minLabel3.BackColor = System.Drawing.Color.Transparent;
             this.minLabel3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.minLabel3.ForeColor = System.Drawing.Color.MediumBlue;
             this.minLabel3.Location = new System.Drawing.Point(210, 149);
             this.minLabel3.Name = "minLabel3";
             this.minLabel3.Size = new System.Drawing.Size(43, 23);
@@ -166,8 +171,9 @@ namespace XMLWeather
             // minLabel4
             // 
             this.minLabel4.AutoSize = true;
+            this.minLabel4.BackColor = System.Drawing.Color.Transparent;
             this.minLabel4.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.minLabel4.ForeColor = System.Drawing.Color.MediumBlue;
             this.minLabel4.Location = new System.Drawing.Point(210, 189);
             this.minLabel4.Name = "minLabel4";
             this.minLabel4.Size = new System.Drawing.Size(43, 23);
@@ -177,8 +183,9 @@ namespace XMLWeather
             // minLabel5
             // 
             this.minLabel5.AutoSize = true;
+            this.minLabel5.BackColor = System.Drawing.Color.Transparent;
             this.minLabel5.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.minLabel5.ForeColor = System.Drawing.Color.MediumBlue;
             this.minLabel5.Location = new System.Drawing.Point(210, 229);
             this.minLabel5.Name = "minLabel5";
             this.minLabel5.Size = new System.Drawing.Size(43, 23);
@@ -188,8 +195,9 @@ namespace XMLWeather
             // minLabel6
             // 
             this.minLabel6.AutoSize = true;
+            this.minLabel6.BackColor = System.Drawing.Color.Transparent;
             this.minLabel6.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.minLabel6.ForeColor = System.Drawing.Color.MediumBlue;
             this.minLabel6.Location = new System.Drawing.Point(210, 269);
             this.minLabel6.Name = "minLabel6";
             this.minLabel6.Size = new System.Drawing.Size(43, 23);
@@ -199,8 +207,9 @@ namespace XMLWeather
             // minLabel7
             // 
             this.minLabel7.AutoSize = true;
+            this.minLabel7.BackColor = System.Drawing.Color.Transparent;
             this.minLabel7.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.minLabel7.ForeColor = System.Drawing.Color.MediumBlue;
             this.minLabel7.Location = new System.Drawing.Point(210, 309);
             this.minLabel7.Name = "minLabel7";
             this.minLabel7.Size = new System.Drawing.Size(43, 23);
@@ -210,8 +219,9 @@ namespace XMLWeather
             // maxLabel2
             // 
             this.maxLabel2.AutoSize = true;
+            this.maxLabel2.BackColor = System.Drawing.Color.Transparent;
             this.maxLabel2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.maxLabel2.ForeColor = System.Drawing.Color.MediumBlue;
             this.maxLabel2.Location = new System.Drawing.Point(162, 109);
             this.maxLabel2.Name = "maxLabel2";
             this.maxLabel2.Size = new System.Drawing.Size(42, 23);
@@ -221,8 +231,9 @@ namespace XMLWeather
             // maxLabel3
             // 
             this.maxLabel3.AutoSize = true;
+            this.maxLabel3.BackColor = System.Drawing.Color.Transparent;
             this.maxLabel3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.maxLabel3.ForeColor = System.Drawing.Color.MediumBlue;
             this.maxLabel3.Location = new System.Drawing.Point(162, 149);
             this.maxLabel3.Name = "maxLabel3";
             this.maxLabel3.Size = new System.Drawing.Size(42, 23);
@@ -232,8 +243,9 @@ namespace XMLWeather
             // maxLabel4
             // 
             this.maxLabel4.AutoSize = true;
+            this.maxLabel4.BackColor = System.Drawing.Color.Transparent;
             this.maxLabel4.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.maxLabel4.ForeColor = System.Drawing.Color.MediumBlue;
             this.maxLabel4.Location = new System.Drawing.Point(162, 189);
             this.maxLabel4.Name = "maxLabel4";
             this.maxLabel4.Size = new System.Drawing.Size(42, 23);
@@ -243,8 +255,9 @@ namespace XMLWeather
             // maxLabel5
             // 
             this.maxLabel5.AutoSize = true;
+            this.maxLabel5.BackColor = System.Drawing.Color.Transparent;
             this.maxLabel5.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.maxLabel5.ForeColor = System.Drawing.Color.MediumBlue;
             this.maxLabel5.Location = new System.Drawing.Point(162, 229);
             this.maxLabel5.Name = "maxLabel5";
             this.maxLabel5.Size = new System.Drawing.Size(42, 23);
@@ -254,8 +267,9 @@ namespace XMLWeather
             // maxLabel6
             // 
             this.maxLabel6.AutoSize = true;
+            this.maxLabel6.BackColor = System.Drawing.Color.Transparent;
             this.maxLabel6.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.maxLabel6.ForeColor = System.Drawing.Color.MediumBlue;
             this.maxLabel6.Location = new System.Drawing.Point(162, 269);
             this.maxLabel6.Name = "maxLabel6";
             this.maxLabel6.Size = new System.Drawing.Size(42, 23);
@@ -265,8 +279,9 @@ namespace XMLWeather
             // maxLabel7
             // 
             this.maxLabel7.AutoSize = true;
+            this.maxLabel7.BackColor = System.Drawing.Color.Transparent;
             this.maxLabel7.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.maxLabel7.ForeColor = System.Drawing.Color.MediumBlue;
             this.maxLabel7.Location = new System.Drawing.Point(162, 309);
             this.maxLabel7.Name = "maxLabel7";
             this.maxLabel7.Size = new System.Drawing.Size(42, 23);
@@ -276,74 +291,80 @@ namespace XMLWeather
             // day2
             // 
             this.day2.AutoSize = true;
-            this.day2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.day2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.day2.BackColor = System.Drawing.Color.Transparent;
+            this.day2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.day2.ForeColor = System.Drawing.Color.MediumBlue;
             this.day2.Location = new System.Drawing.Point(13, 109);
             this.day2.Name = "day2";
-            this.day2.Size = new System.Drawing.Size(48, 23);
+            this.day2.Size = new System.Drawing.Size(48, 20);
             this.day2.TabIndex = 82;
             this.day2.Text = "Date";
             // 
             // day3
             // 
             this.day3.AutoSize = true;
-            this.day3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.day3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.day3.BackColor = System.Drawing.Color.Transparent;
+            this.day3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.day3.ForeColor = System.Drawing.Color.MediumBlue;
             this.day3.Location = new System.Drawing.Point(13, 149);
             this.day3.Name = "day3";
-            this.day3.Size = new System.Drawing.Size(48, 23);
+            this.day3.Size = new System.Drawing.Size(48, 20);
             this.day3.TabIndex = 83;
             this.day3.Text = "Date";
             // 
             // day4
             // 
             this.day4.AutoSize = true;
-            this.day4.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.day4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.day4.BackColor = System.Drawing.Color.Transparent;
+            this.day4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.day4.ForeColor = System.Drawing.Color.MediumBlue;
             this.day4.Location = new System.Drawing.Point(13, 189);
             this.day4.Name = "day4";
-            this.day4.Size = new System.Drawing.Size(48, 23);
+            this.day4.Size = new System.Drawing.Size(48, 20);
             this.day4.TabIndex = 84;
             this.day4.Text = "Date";
             // 
             // day5
             // 
             this.day5.AutoSize = true;
-            this.day5.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.day5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.day5.BackColor = System.Drawing.Color.Transparent;
+            this.day5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.day5.ForeColor = System.Drawing.Color.MediumBlue;
             this.day5.Location = new System.Drawing.Point(13, 229);
             this.day5.Name = "day5";
-            this.day5.Size = new System.Drawing.Size(48, 23);
+            this.day5.Size = new System.Drawing.Size(48, 20);
             this.day5.TabIndex = 85;
             this.day5.Text = "Date";
             // 
             // day6
             // 
             this.day6.AutoSize = true;
-            this.day6.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.day6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.day6.BackColor = System.Drawing.Color.Transparent;
+            this.day6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.day6.ForeColor = System.Drawing.Color.MediumBlue;
             this.day6.Location = new System.Drawing.Point(13, 269);
             this.day6.Name = "day6";
-            this.day6.Size = new System.Drawing.Size(48, 23);
+            this.day6.Size = new System.Drawing.Size(48, 20);
             this.day6.TabIndex = 86;
             this.day6.Text = "Date";
             // 
             // day7
             // 
             this.day7.AutoSize = true;
-            this.day7.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.day7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.day7.BackColor = System.Drawing.Color.Transparent;
+            this.day7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.day7.ForeColor = System.Drawing.Color.MediumBlue;
             this.day7.Location = new System.Drawing.Point(13, 309);
             this.day7.Name = "day7";
-            this.day7.Size = new System.Drawing.Size(48, 23);
+            this.day7.Size = new System.Drawing.Size(48, 20);
             this.day7.TabIndex = 87;
             this.day7.Text = "Date";
             // 
             // upTimeLabel
             // 
             this.upTimeLabel.BackColor = System.Drawing.Color.Transparent;
-            this.upTimeLabel.Font = new System.Drawing.Font("Comic Sans MS", 8.25F);
-            this.upTimeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.upTimeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.upTimeLabel.ForeColor = System.Drawing.Color.MediumBlue;
             this.upTimeLabel.Location = new System.Drawing.Point(24, 377);
             this.upTimeLabel.Name = "upTimeLabel";
             this.upTimeLabel.Size = new System.Drawing.Size(209, 23);
@@ -352,8 +373,9 @@ namespace XMLWeather
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.ForeColor = System.Drawing.Color.MediumBlue;
             this.label1.Location = new System.Drawing.Point(125, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 28);
@@ -439,6 +461,8 @@ namespace XMLWeather
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::XMLWeather.Properties.Resources.b;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
@@ -475,6 +499,7 @@ namespace XMLWeather
             this.Name = "ForecastScreen";
             this.Size = new System.Drawing.Size(250, 400);
             this.Load += new System.EventHandler(this.ForecastScreen_Load);
+            this.BackgroundImageChanged += new System.EventHandler(this.ForecastScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
